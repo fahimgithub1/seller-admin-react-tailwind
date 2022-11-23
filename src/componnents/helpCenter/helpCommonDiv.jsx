@@ -14,6 +14,7 @@ export default function HelpCommonDiv(props){
                         <HelpItem 
                                     key={item.id}
                                     text={item.text}
+                                    icon={item.icon}
                         />
                     ))}
                 </div>

@@ -6,10 +6,10 @@ export default function ProductTh(){
 
     return(
       <TrWrepper>
-        <th className="h-5 w-5 text-center">
+        <th className="h-5 max-w-5 max-w-[20px] text-left">
             <InputChecK />
         </th>
-        <th>name</th>
+        <th className="min-w-min">name</th>
         <th>Catwgory</th>
         <th>Stock</th>
         <th>price</th>

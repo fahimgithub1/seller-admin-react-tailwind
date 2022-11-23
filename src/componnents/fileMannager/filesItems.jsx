@@ -6,8 +6,8 @@ export default function FileItem(props){
 
 
     return(
-        <div className="md:w-4/12 p-2">
-            <div className="border-[1px] border-gray-400  rounded-lg hover:bg-blue-500 cursor-pointer bg-blue-300 overflow-hidden" >
+        <div className="w-[100%] md:w-4/12 p-2">
+            <div className="border-[1px] border-gray-400 w-full rounded-lg hover:bg-blue-500 cursor-pointer bg-blue-300 overflow-hidden" >
                 <div className="h-[220px] w-full flex items-center justify-center overflow-hidden">
                     <img src={props.img} alt="folder icon" className="rounded-lg" />
                 </div>

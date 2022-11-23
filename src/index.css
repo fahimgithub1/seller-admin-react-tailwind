@@ -86,6 +86,25 @@ code {
 table td,
 table th{
   padding: 12px 0;
+  min-width: 120px;
+  margin: 0 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  table td,
+  table th{
+    min-width: min-content !important;
+    width: min-content !important;
+  }
+}
+
+table th{
+  text-align: left !important;
+}
+
+.help-icon i{
+  margin: auto;
+  text-align: center;
 }
 /* common components start */
 

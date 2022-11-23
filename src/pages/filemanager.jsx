@@ -101,6 +101,7 @@ const Files = [
         fileSize : "324 files"
     },
 ]
+
 export default function FileManager(){
 
     return(
